@@ -18,7 +18,7 @@ def login():
 
         query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
 
-cursor.execute(query)
+        cursor.execute(query)
 
         result = cursor.fetchone()
 
